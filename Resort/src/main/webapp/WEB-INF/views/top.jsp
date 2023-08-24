@@ -57,16 +57,16 @@ function loadPage(pageUrl) {
 				<tr>
 					<td width='0'></td>
 					<td width='600' style='text-align:left;'>
-						<a href='main.html' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('main')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| Resort</span>
 						</a>
 						<a href="javascript:void(0);" onclick="loadPage('vipRoom')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| Vip룸</span>
 						</a>
-						<a href='normalRoom.html' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('normalRoom')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| 일반룸</span>
 						</a>
-						<a href='basicRoom.html' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('basicRoom')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| Basic룸</span>
 						</a>
 					</td>
@@ -76,13 +76,13 @@ function loadPage(pageUrl) {
 				<tr>
 					<td width='100'></td>
 					<td width='500' style='text-align:left;'>
-						<a href='info_01.jsp' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('info_01')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| 찾아오는길</span>
 						</a>
-						<a href='info_02.html' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('info_02')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| 대중교통이용</span>
 						</a>
-						<a href='info_03.html' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('info_03')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| 자가용이용</span>
 						</a>
 					</td>
