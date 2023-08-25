@@ -92,13 +92,13 @@ function loadPage(pageUrl) {
 				<tr>
 					<td width='200'></td>
 					<td width='400' style='text-align:left;'>
-						<a href='around_01.html' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('around_01')">
+						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| 독도</span>
+						</a>
+						<a href="javascript:void(0);" onclick="loadPage('around_02')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| ...</span>
 						</a>
-						<a href='around_02.html' target=main>
-						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| ...</span>
-						</a>
-						<a href='around_03.html' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('around_03')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| ...</span>
 						</a>
 					</td>
@@ -108,16 +108,16 @@ function loadPage(pageUrl) {
 				<tr>
 					<td width='300'></td>
 					<td width='300' style='text-align:left;'>
-						<a href='reserveStatus.jsp' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('reserveStatus')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| 예약상황</span>
 						</a>
-						<a href='reserve.jsp' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('reserve')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| 예약하기</span>
 						</a>
-						<a href='adm_allview.jsp' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('adm_allview')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| 관리자페이지</span>
 						</a>
-						<a href='adm_logout.jsp' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('adm_logout')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| 관리자로그아웃</span>
 						</a>
 					</td>
@@ -127,10 +127,10 @@ function loadPage(pageUrl) {
 				<tr>
 					<td width='350'></td>
 					<td width='250' style='text-align:left;'>
-						<a href='board.jsp' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('board')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| 리조트소식</span>
 						</a>
-						<a href='comment.jsp' target=main>
+						<a href="javascript:void(0);" onclick="loadPage('comment')">
 						<span onmouseover=this.style.color='#ff0000' onmouseout=this.style.color='#000000'>| 이용후기</span>
 						</a>
 					</td>
